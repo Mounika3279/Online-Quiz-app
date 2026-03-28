@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<h1>Quiz App</h1>
+
+<!-- USER INPUT -->
+<div id="user-info">
+<input type="text" id="name" placeholder="Enter Name">
+<input type="text" id="roll" placeholder="Enter Roll Number">
+<button id="start-btn" disabled>Start Quiz</button>
+</div>
+
+<!-- QUIZ -->
+<div id="quiz" style="display:none;">
+<p id="progress"></p>
+<h2 id="question"></h2>
+
+<div id="answer-buttons"></div>
+
+<p id="result"></p>
+<p id="timer">Time: 15</p>
+
+<button id="next-btn">Next</button>
+</div>
+
+<!-- LEADERBOARD -->
+<div id="leaderboard" style="display:none;">
+<h2>Leaderboard</h2>
+
+<table border="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Roll</th>
+<th>Score</th>
+<th>%</th>
+</tr>
+</thead>
+
+<tbody id="leaderboard-body"></tbody>
+</table>
+
+<button onclick="restartApp()">New Student</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

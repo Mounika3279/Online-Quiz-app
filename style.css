@@ -1,0 +1,48 @@
+body{
+font-family:Arial;
+background:#001e4d;
+}
+
+.app{
+background:white;
+width:90%;
+max-width:600px;
+margin:100px auto;
+padding:30px;
+border-radius:10px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.btn{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #222;
+cursor:pointer;
+}
+
+#next-btn{
+margin-top:20px;
+padding:10px;
+cursor:pointer;
+}
+
+#timer{
+font-weight:bold;
+color:red;
+}
+
+table{
+margin-top:20px;
+border-collapse:collapse;
+}
+
+th, td{
+padding:8px;
+text-align:center;
+}
